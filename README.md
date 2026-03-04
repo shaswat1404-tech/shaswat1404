@@ -52,10 +52,4 @@ When I'm not building pipelines, I'm thinking about data quality, cost efficienc
 
 ---
 
-## 📊 GitHub Stats
-
-![Shaswat's GitHub stats](https://github-readme-stats.vercel.app/api?username=shaswat1404-tech&show_icons=true&theme=default&hide_border=true)
-
----
-
 *I keep most of my production work confidential due to client agreements — these repos reflect the patterns, architectures, and approaches I use in real engagements.*
