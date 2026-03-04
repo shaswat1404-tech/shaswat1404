@@ -24,12 +24,12 @@ When I'm not building pipelines, I'm thinking about data quality, cost efficienc
 
 | Category | Tools |
 |---|---|
-| **Cloud & Orchestration** | Azure Data Factory, Azure Databricks, Function Apps, Logic Apps, Azure DevOps |
-| **Data Platforms** | Delta Lake, Delta Live Tables, Unity Catalog, Medallion Architecture |
+| **Cloud & Orchestration** | Azure Data Factory, Azure Databricks, Durable Function Apps, Logic Apps, Azure DevOps |
+| **Data Platforms** | Delta Lake, Delta Live Tables, Unity Catalog, Auto Loader, Medallion Architecture, SQL Warehouse |
 | **Programming** | PySpark, Python (Async/Durable Functions), SQL, YAML |
-| **Databases** | Azure SQL, PostgreSQL, MySQL, SQL Server (on-prem & cloud) |
-| **Security & Governance** | Azure Key Vault, Managed Identities, Unity Catalog, External Locations |
-| **Integration** | REST APIs, Shopify API, Newbook API, JSON pipelines |
+| **Databases** | Azure SQL, PostgreSQL (MDM), MySQL, SQL Server (on-prem & cloud) |
+| **Security & Governance** | Azure Key Vault, Managed Identities, Unity Catalog, External Locations, Databricks Asset Bundles |
+| **Integration** | REST APIs, Rent Manager, ManageAmerica, Shopify, Newbook, JSON pipelines |
 
 ---
 
@@ -37,11 +37,11 @@ When I'm not building pipelines, I'm thinking about data quality, cost efficienc
 
 | Repo | What it covers |
 |---|---|
-| [azure-medallion-etl-framework](https://github.com/shaswat1404/azure-medallion-etl-framework) | End-to-end ADF + Databricks pipeline with medallion architecture, async ingestion & Key Vault security |
-| [databricks-unity-catalog-migration](https://github.com/shaswat1404/databricks-unity-catalog-migration) | Production checklist + code patterns for migrating from Hive Metastore to Unity Catalog |
-| [databricks-devops-cicd-template](https://github.com/shaswat1404/databricks-devops-cicd-template) | Azure DevOps YAML templates for multi-environment Databricks deployments |
-| [api-migration-framework](https://github.com/shaswat1404/api-migration-framework) | Patterns for REST API source migration with field mapping, backfill logic & medallion ingestion |
-| [delta-live-tables-optimization](https://github.com/shaswat1404/delta-live-tables-optimization) | Refactoring batch pipelines to DLT — architecture decisions that delivered 100× performance gains |
+| [azure-medallion-etl-framework](https://github.com/shaswat1404-tech/azure-medallion-etl-framework) | Multi-source medallion platform — Durable Functions, ADF, PostgreSQL MDM, SQL Server, SQL Warehouse + Power BI |
+| [hive-to-unity-catalog-migration-guide](https://github.com/shaswat1404-tech/hive-to-unity-catalog-migration-guide) | HMS → Unity Catalog migration guide — UCX toolkit, serverless compute, Delta Sharing, zero data-loss validation |
+| [databricks-devops-cicd-adoption-guide](https://github.com/shaswat1404-tech/databricks-devops-cicd-adoption-guide) | Databricks Asset Bundles CI/CD — branch-gated deployments, AKV environment harmonisation, DAB + Azure DevOps |
+| [api-source-migration-playbook](https://github.com/shaswat1404-tech/api-source-migration-playbook) | API provider migration playbook — gap analysis, granularity validation, three-scenario historical backfill, phased cutover |
+| [delta-live-tables-optimization](https://github.com/shaswat1404-tech/delta-live-tables-optimization) | POS pipeline rebuild — eliminated n⁴ cross-join, exactly-once DLT routing, 4,500–5,000 files/15 min throughput |
 
 ---
 
@@ -54,7 +54,7 @@ When I'm not building pipelines, I'm thinking about data quality, cost efficienc
 
 ## 📊 GitHub Stats
 
-![Shaswat's GitHub stats](https://github-readme-stats.vercel.app/api?username=shaswat1404&show_icons=true&theme=default&hide_border=true)
+![Shaswat's GitHub stats](https://github-readme-stats.vercel.app/api?username=shaswat1404-tech&show_icons=true&theme=default&hide_border=true)
 
 ---
 
